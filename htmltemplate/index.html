@@ -10,14 +10,14 @@
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
    </head>
    <body>
-      <div class="header">
+      <header class="header">
          <div class="header-top">
             <div class="wrap">
                <div class="logo">
                   <!--<a href="index.html"><img src="images/logo.png" alt=""/></a>-->
                   <h1><a href="index.html">LOGOplaceholder</a></h1>
                </div>
-               <div class="cssmenu">
+               <nav class="cssmenu">
                   <ul id="nav">
                      <li class="current"><a href="#section-1">HOME</a>
                      </li>
@@ -34,16 +34,21 @@
                      <li><a href="#section-5">CONTACTS</a>
                      </li>
                   </ul>
-               </div>
+               </nav>
                <div class="clear"></div>
             </div>
          </div>
-      </div>
-      <div class="banner section" id="section-1">
+      </header>
+      <section class="banner section" id="section-1">
          <div class="wrap">
             <div class="wmuSlider slider">
                <div class="wmuSliderWrapper">
-                  <article style="position: absolute; width: 100%; opacity: 0;"> <img src="images/header-banner.png" alt=""> </article>
+                  <article style="position: absolute; width: 100%; opacity: 0;">
+                     <div class="slide">
+                        <h1>Vestibulum</h1>
+                        <h4>This is a test caption</h4>
+                     </div>
+                  </article>
                </div>
                <a class="wmuSliderPrev">Previous</a><a class="wmuSliderNext">Next</a>
             </div>
@@ -51,10 +56,10 @@
             <script>
                $('.slider').wmuSlider();
             </script>
-         </div>
+      </section>
       </div>
       <div class="main" id="container">
-         <div class="content-top section" id="section-2">
+         <section class="content-top section" id="section-2">
             <div class="wrap">
                <div class="services">
                   <div class="col_1_of_2 span_1_of_2">
@@ -67,8 +72,8 @@
                   <div class="clear"></div>
                </div>
             </div>
-         </div>
-         <div class="content-middle section" id="section-3">
+         </section>
+         <section class="content-middle section" id="section-3">
             <div class="wrap">
                <div class="section group">
                   <div class="col_1_of_4 span_1_of_4">
@@ -114,8 +119,8 @@
                   <div class="clear"></div>
                </div>
             </div>
-         </div>
-         <div class="content-middle section" id="section-4">
+         </section>
+         <section class="content-middle section" id="section-4">
             <div class="wrap">
                <div class="whyus">
                   <h2>WHY US</h2>
@@ -125,98 +130,98 @@
                   <img src="images/ad_banners.png">
                </div>
             </div>
-          </div>
-         <div class="content-middle section" id="section-5">
-            <div class="wrap">
-               <div class="col_1_of_3 span_1_of_3">
-                  <div class="whychooseus">
-                     <h4><a href="#">Why Choose Us</a></h4>
+      </div>
+      <div class="content-middle section" id="section-5">
+      <div class="wrap">
+      <div class="col_1_of_3 span_1_of_3">
+      <div class="whychooseus">
+      <h4><a href="#">Why Choose Us</a></h4>
+      <ul>
+      <li>We are the best !</li>
+      <li>We are the best !</li>
+      <li>We are the best !</li>
+      </ul>
+      </div>
+      </div>
+      <div class="col_1_of_3 span_1_of_3">
+      <div class="service_highlights">
+      <p>Provide highlights of your service here.</p>
+      <div class="service_highlight">
+      <img src="images/service_highlights.png">
+      </div>
+      </div>
+      </div>
+      <div class="col_1_of_3 span_1_of_3">
+      <div class="customer_feedback">
+      <h4><a href="#">What Clients Say?</a></h4>
+      <div class="bubble">
+      <p>The productivity of our staff increased by double after using this service!!</p>
+      </div>
+      </div>
+      </div>
+      <p class="quotecustomer"> Jhon Doe </p>
+      <div class="clear"></div>
+      </div>
+      </div>
+      </section>
+      </div>
+      <footer class="footer section" id="section-6">
+      <div class="footer-top">
+         <div class="wrap">
+            <div class="section group">
+               <div class="col_1_of_4 span_1_of_4">
+                  <div class="about">
+                     <h3>ABOUT</h3>
+                     <p>Here is the contact details of your company</p>
+                     <p> Phone : 182 2569 5896 </p>
+                     <p> Email : info@modu.versus</p>
+                  </div>
+               </div>
+               <div class="col_1_of_4 span_1_of_4">
+                  <div class="company">
+                     <h3>Company</h3>
                      <ul>
-                        <li>We are the best !</li>
-                        <li>We are the best !</li>
-                        <li>We are the best !</li>
+                        <li> <a href="#">About</a></li>
+                        <li> <a href="#">FAQ</a></li>
+                        <li> <a href="#">Contract</a></li>
+                        <li> <a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li> <a href="#">Testimonials</a></li>
                      </ul>
                   </div>
                </div>
-               <div class="col_1_of_3 span_1_of_3">
-                  <div class="service_highlights">
-                     <p>Provide highlights of your service here.</p>
-                     <div class="service_highlight">
-                        <img src="images/service_highlights.png">
+               <div class="col_1_of_4 span_1_of_4">
+                  <div class="community">
+                     <h3>Community</h3>
+                     <ul>
+                        <li> <a href="#">Blog</a></li>
+                        <li> <a href="#">Forum</a></li>
+                        <li> <a href="#">Support</a></li>
+                        <li> <a href="#">Newsletter</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col_1_of_4 span_1_of_4">
+                  <div class="blog">
+                     <span>from the </span>BLOG
+                     <div>
+                        <a href="#"><img style="vertical-align:top" src="images/blog.png" >
+                        <span>Q4 Results announced,23 Aug 2014</span></a>
+                     </div>
+                     <div>
+                        <a href="#"><img style="vertical-align:top" src="images/blog.png" >
+                        <span>New acquisition, 15 Jun 2014</span></a>
                      </div>
                   </div>
                </div>
-               <div class="col_1_of_3 span_1_of_3">
-                  <div class="customer_feedback">
-                     <h4><a href="#">What Clients Say?</a></h4>
-                     <div class="bubble">
-                        <p>The productivity of our staff increased by double after using this service!!</p>
-                     </div>
-                  </div>
-               </div>
-               <p class="quotecustomer"> Jhon Doe </p>
                <div class="clear"></div>
             </div>
          </div>
+         <div class="clear"></div>
       </div>
       </div>
-      <div class="footer section" id="section-6">
-         <div class="footer-top">
-            <div class="wrap">
-               <div class="section group">
-                  <div class="col_1_of_4 span_1_of_4">
-                     <div class="about">
-                        <h3>ABOUT</h3>
-                        <p>Here is the contact details of your company</p>
-                        <p> Phone : 182 2569 5896 </p>
-                        <p> Email : info@modu.versus</p>
-                     </div>
-                  </div>
-                  <div class="col_1_of_4 span_1_of_4">
-                     <div class="company">
-                        <h3>Company</h3>
-                        <ul>
-                           <li> <a href="#">About</a></li>
-                           <li> <a href="#">FAQ</a></li>
-                           <li> <a href="#">Contract</a></li>
-                           <li> <a href="#">Terms</a></li>
-                           <li><a href="#">Privacy</a></li>
-                           <li> <a href="#">Testimonials</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col_1_of_4 span_1_of_4">
-                     <div class="community">
-                        <h3>Community</h3>
-                        <ul>
-                           <li> <a href="#">Blog</a></li>
-                           <li> <a href="#">Forum</a></li>
-                           <li> <a href="#">Support</a></li>
-                           <li> <a href="#">Newsletter</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col_1_of_4 span_1_of_4">
-                     <div class="blog">
-                        <span>from the </span>BLOG
-                        <div>
-                           <a href="#"><img style="vertical-align:top" src="images/blog.png" >
-                           <span>Q4 Results announced,23 Aug 2014</span></a>
-                        </div>
-                        <div>
-                           <a href="#"><img style="vertical-align:top" src="images/blog.png" >
-                           <span>New acquisition, 15 Jun 2014</span></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="clear"></div>
-               </div>
-            </div>
-            <div class="clear"></div>
-         </div>
       </div>
-      </div>
-      <div class="footer-bottom">
+      <footer class="footer-bottom">
          <div class="wrap">
             <div class="social-footer">
                <ul>
@@ -233,8 +238,8 @@
             <div class="clear"></div>
             <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
          </div>
-      </div>
-      <script src="js/jquery.nav.js"></script>
-      </div>
+         </div>
+         <script src="js/jquery.nav.js"></script>
+      </footer>
    </body>
 </html>
